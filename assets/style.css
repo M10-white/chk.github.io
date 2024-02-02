@@ -2,6 +2,8 @@ html, body{
 	font-size:16px;
 	background-color: #000000; 
 	color: #cbc3c3;
+	margin: 0;
+	padding: 0;
 }
   
 p{
@@ -56,6 +58,11 @@ h1 {
 	-moz-box-shadow: -5px 5px 41px -18px rgba(0,0,0,0.75);
 	box-shadow: -5px 5px 41px -18px rgba(0,0,0,0.75);
 }
+
+.job img {
+	max-width: 100%;
+	height: auto;
+  }
 
 .job h2 {
 	font-size: large;
@@ -440,4 +447,21 @@ ul {
 	}
 
 }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 768px) {
+  
+	.containerr {
+	  padding: 10px;
+	}
+  
+	.job {
+	  margin: 20px 0;
+	}
+  
+	/* Center the veille technologique section */
+	.section-4 {
+	  text-align: center;
+	}
 
+  }
